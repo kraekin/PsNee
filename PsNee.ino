@@ -287,7 +287,7 @@ void inject_playstation()
  
   for (loop_counter = 0; loop_counter < 25; loop_counter = loop_counter + 1)
   {
-    inject_SCEE();
+    inject_SCEA();
   }
  
   pinMode(gate, INPUT);
@@ -299,7 +299,7 @@ void inject_playstation()
  
   for (loop_counter = 0; loop_counter < 60; loop_counter = loop_counter + 1)
   {
-    inject_SCEE();
+    inject_SCEA();
   }
  
   pinMode(gate, INPUT);
